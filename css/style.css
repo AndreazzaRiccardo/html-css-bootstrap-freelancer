@@ -1,0 +1,14 @@
+/* ROOT */
+
+:root {
+    --bg-grey: #3A546D ;
+    --bg-green: #1BBC9B;
+}
+
+/* HEADER */
+
+header {
+    height: 100px;
+    background-color: var(--bg-grey);
+}
+
