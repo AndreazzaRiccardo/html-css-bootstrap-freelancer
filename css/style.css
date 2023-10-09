@@ -12,3 +12,13 @@ header {
     background-color: var(--bg-grey);
 }
 
+/* MAIN */
+
+    /* Hero */
+
+    #hero {
+        background-color: var(--bg-green);
+
+        /* Debug */
+        height: 700px;
+    }
