@@ -3,6 +3,7 @@
 :root {
     --bg-grey: #3A546D ;
     --bg-green: #1BBC9B;
+    --bg-dark-grey: #2D3E50;
 }
 
 /* COMMON */
@@ -45,6 +46,19 @@ header {
 
     #about {
         background-color: var(--bg-green);
+    }
+
+/* FOOTER */
+
+    .footer-top {
+        background-color: var(--bg-grey);
+    }
+
+    .footer-bottom {
+        background-color: var(--bg-dark-grey);
+
+        /* Debug */
+        min-height: 100px;
     }
 
 
