@@ -5,6 +5,18 @@
     --bg-green: #1BBC9B;
 }
 
+/* COMMON */
+
+[class*="col"] {
+    /* Debug */
+    border: 1px solid black;
+    height: 200px;
+}
+
+[class*="container"] {
+    border: 1px solid black;
+}
+
 /* HEADER */
 
 header {
@@ -22,3 +34,6 @@ header {
         /* Debug */
         height: 700px;
     }
+
+    /* Portfolio */
+
