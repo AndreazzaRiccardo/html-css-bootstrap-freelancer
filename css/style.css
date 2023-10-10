@@ -17,9 +17,19 @@ img {
     margin: 0 auto;
 }
 
+.ms_icon hr {
+    vertical-align: middle;
+    display: inline-block;
+    border: 1px solid;
+    width: 80px;
+    border-radius: 10px;
+    opacity:100%;
+    margin: 10px;
+}
+
 /* HEADER */
 
- .ms_navbar {
+.ms_navbar {
     height: 80px;
     background-color: var(--ms_bg-grey);
     color: white;
@@ -121,13 +131,3 @@ img {
 
     }
 
-    hr {
-        vertical-align: middle;
-        color: black;
-        display: inline-block;
-        border: 5px solid black;
-        height: 50px;
-        width: 100px;
-        line-height: 100px;
-        border-radius: 10px;
-    }
