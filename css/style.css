@@ -1,34 +1,39 @@
 /* ROOT */
 
 :root {
-    --bg-grey: #3A546D ;
-    --bg-green: #1BBC9B;
-    --bg-dark-grey: #2D3E50;
+    --ms_bg-grey: #3A546D ;
+    --ms_bg-green: #1BBC9B;
+    --ms_bg-dark-grey: #2D3E50;
 }
 
 /* COMMON */
 
-.wrapper {
+img {
+    max-width: 100%;
+}
+
+.ms_wrapper {
     width: 70%;
     margin: 0 auto;
 }
 
-[class*="col"] {
-    /* Debug */
-    border: 1px solid black;
-    min-height: 200px;
-}
-
-[class*="container"] {
-    /* Debug */
-    border: 1px solid black;
-}
-
 /* HEADER */
 
-header {
-    height: 100px;
-    background-color: var(--bg-grey);
+ .ms_navbar {
+    height: 80px;
+    background-color: var(--ms_bg-grey);
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    padding-left: 1rem;
+    background-color: var(--ms_bg-grey);
+    font-weight: bold;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
 }
 
 /* MAIN */
@@ -36,29 +41,93 @@ header {
     /* Hero */
 
     #hero {
-        background-color: var(--bg-green);
+        background-color: var(--ms_bg-green);
+        color: white;
+        margin-top: 80px;
+    }
 
-        /* Debug */
-        min-height: 700px;
+    #hero img {
+        max-width: 300px;
+    }
+
+    #hero p {
+        font-weight: bolder;
+    }
+
+    /* Portfolio */
+    #portfolio img {
+        border-radius: 10px;
     }
 
     /* About */
 
     #about {
-        background-color: var(--bg-green);
+        background-color: var(--ms_bg-green);
+        color: white;
     }
+
+    .ms_p-about {
+        display: flex;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    #about a {
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 0.5rem;
+    }
+
+    /* Cta  */
+
+    #contact-me label {
+        font-weight: bold;
+    }
+
+    #contact-me button {
+        border: none;
+        background-color: var(--ms_bg-green);
+        color: white;
+        align-self: flex-start;
+        padding: .3rem .9rem;
+        border-radius: 5px;
+        margin-top: 1rem;
+    }
+
+
 
 /* FOOTER */
 
     .footer-top {
-        background-color: var(--bg-grey);
+        background-color: var(--ms_bg-grey);
     }
 
     .footer-bottom {
-        background-color: var(--bg-dark-grey);
+        background-color: var(--ms_bg-dark-grey);
 
         /* Debug */
         min-height: 100px;
     }
 
 
+    .ms_line {
+        
+        letter-spacing: -3px;
+        margin-right: 1rem;
+        font-weight: 900;
+        border-radius: 10%;
+
+    }
+
+    hr {
+        vertical-align: middle;
+        color: black;
+        display: inline-block;
+        border: 5px solid black;
+        height: 50px;
+        width: 100px;
+        line-height: 100px;
+        border-radius: 10px;
+    }
