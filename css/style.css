@@ -60,10 +60,6 @@ img {
         max-width: 300px;
     }
 
-    #hero p {
-        font-weight: bolder;
-    }
-
     /* Portfolio */
     #portfolio img {
         border-radius: 10px;
@@ -80,14 +76,12 @@ img {
         display: flex;
         align-items: flex-start;
         text-align: left;
+        margin-bottom: 2rem;
     }
 
     #about a {
-        text-decoration: none;
         color: white;
         border: 1px solid white;
-        border-radius: 5px;
-        padding: 0.5rem;
     }
 
     /* Cta  */
