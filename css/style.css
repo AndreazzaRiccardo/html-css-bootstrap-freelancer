@@ -7,6 +7,7 @@
     --ms_white: white;
 }
 
+
 /* COMMON */
 
 img {
@@ -27,6 +28,7 @@ img {
     opacity:100%;
     margin: 10px;
 }
+
 
 /* HEADER */
 
@@ -97,8 +99,6 @@ img {
     #contact-me button {
         background-color: var(--ms_bg-green);
         color: var(--ms_white);
-        align-self: flex-start;
-        margin-top: 1rem;
     }
 
     #contact-me input {
@@ -113,14 +113,11 @@ img {
     }
 
 
-
 /* FOOTER */
 
     .footer-top {
         background-color: var(--ms_bg-grey);
         color: var(--ms_white);
-        padding-top: 2rem;
-        text-align: center;
     }
 
     .ms_footer-col {
@@ -149,7 +146,6 @@ img {
     .footer-bottom {
         background-color: var(--ms_bg-dark-grey);
         height: 80px;
-        text-align: center;
         line-height: 80px;
         color: var(--ms_white);
     }
