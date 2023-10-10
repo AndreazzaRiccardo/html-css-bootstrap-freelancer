@@ -35,6 +35,11 @@ img {
     color: white;
 }
 
+.navbar-light .navbar-toggler {
+    filter:invert();
+    border: 1px solid;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: white;
     padding-left: 1rem;
@@ -86,18 +91,21 @@ img {
 
     /* Cta  */
 
-    #contact-me label {
-        font-weight: bold;
-    }
-
     #contact-me button {
-        border: none;
         background-color: var(--ms_bg-green);
         color: white;
         align-self: flex-start;
-        padding: .3rem .9rem;
-        border-radius: 5px;
         margin-top: 1rem;
+    }
+
+    #contact-me input {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    #contact-me .form-control:focus {
+        box-shadow: none;
     }
 
 
