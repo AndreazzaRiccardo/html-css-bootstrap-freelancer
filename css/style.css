@@ -4,6 +4,7 @@
     --ms_bg-grey: #3A546D ;
     --ms_bg-green: #1BBC9B;
     --ms_bg-dark-grey: #2D3E50;
+    --ms_white: white;
 }
 
 /* COMMON */
@@ -32,7 +33,7 @@ img {
 .ms_navbar {
     height: 80px;
     background-color: var(--ms_bg-grey);
-    color: white;
+    color: var(--ms_white);
 }
 
 .navbar-light .navbar-toggler {
@@ -41,14 +42,15 @@ img {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: white;
+    color: var(--ms_white);
     padding-left: 1rem;
     background-color: var(--ms_bg-grey);
+    opacity: 90%;
     font-weight: bold;
 }
 
 .navbar-light .navbar-brand {
-    color: white;
+    color: var(--ms_white);
 }
 
 /* MAIN */
@@ -57,7 +59,7 @@ img {
 
     #hero {
         background-color: var(--ms_bg-green);
-        color: white;
+        color: var(--ms_white);
         margin-top: 80px;
     }
 
@@ -66,7 +68,7 @@ img {
     }
 
     /* Portfolio */
-    
+
     #portfolio img {
         border-radius: 10px;
     }
@@ -75,7 +77,7 @@ img {
 
     #about {
         background-color: var(--ms_bg-green);
-        color: white;
+        color: var(--ms_white);
     }
 
     .ms_p-about {
@@ -86,20 +88,21 @@ img {
     }
 
     #about a {
-        color: white;
-        border: 1px solid white;
+        color: var(--ms_white);
+        border: 1px solid var(--ms_white);
     }
 
     /* Cta  */
 
     #contact-me button {
         background-color: var(--ms_bg-green);
-        color: white;
+        color: var(--ms_white);
         align-self: flex-start;
         margin-top: 1rem;
     }
 
     #contact-me input {
+        margin-bottom: 2rem;
         border-top: none;
         border-left: none;
         border-right: none;
@@ -115,7 +118,7 @@ img {
 
     .footer-top {
         background-color: var(--ms_bg-grey);
-        color: white;
+        color: var(--ms_white);
         padding-top: 2rem;
         text-align: center;
     }
@@ -134,12 +137,13 @@ img {
     .ms_footer-icon {
         height: 40px;
         width: 40px;
-        border: 1px solid;
+        border: 1px solid var(--ms_white);
         border-radius: 50%;
         display: inline-block;
         text-align: center;
         line-height: 40px;
         margin: .3rem;
+        color: var(--ms_white);
     }
 
     .footer-bottom {
@@ -147,5 +151,5 @@ img {
         height: 80px;
         text-align: center;
         line-height: 80px;
-        color: white;
+        color: var(--ms_white);
     }
