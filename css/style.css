@@ -45,10 +45,12 @@ img {
 
 .navbar-light .navbar-nav .nav-link {
     color: var(--ms_white);
-    padding-left: 1rem;
+    padding-right: 1rem;
     background-color: var(--ms_bg-grey);
     opacity: 90%;
     font-weight: bold;
+    width: 120px;
+    text-align: end;
 }
 
 .navbar-light .navbar-brand {
